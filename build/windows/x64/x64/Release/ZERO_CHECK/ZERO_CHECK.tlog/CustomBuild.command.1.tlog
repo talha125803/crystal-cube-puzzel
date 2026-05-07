@@ -1,0 +1,10 @@
+^D:\CUBE-PUUZELS\BUILD\WINDOWS\X64\CMAKEFILES\B16103C2EC0513A19FEC799A6D73CBB9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Cube-Puuzels/windows -BD:/Cube-Puuzels/build/windows/x64 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Cube-Puuzels/build/windows/x64/CrystalCubePuzzle.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\CUBE-PUUZELS\BUILD\WINDOWS\X64\_DEPS\NUGET-SUBBUILD\CMAKEFILES\6D8C31CA7D7FA6B5C5E6F55A08BFD585\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\18\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SD:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild -BD:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/nuget-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

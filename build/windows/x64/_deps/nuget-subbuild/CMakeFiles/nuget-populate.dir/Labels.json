@@ -1,0 +1,49 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/nuget-populate"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/6d8c31ca7d7fa6b5c5e6f55a08bfd585/nuget-populate.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/6d1df54d266a27f7d747767a14ffb130/nuget-populate-complete.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-build.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-configure.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-copyfile.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-download.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-install.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-mkdir.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-patch.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-test.rule"
+		},
+		{
+			"file" : "D:/Cube-Puuzels/build/windows/x64/_deps/nuget-subbuild/CMakeFiles/086ef537ec73096e491f30eccf69b2af/nuget-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"nuget-populate"
+		],
+		"name" : "nuget-populate"
+	}
+}
