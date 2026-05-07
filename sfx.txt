@@ -1,0 +1,33 @@
+Wood Block Puzzle Sound Effects List:
+
+1. place_block.mp3
+   - Description: A satisfying wooden "thud" or "clack" when a block is placed on the board.
+   - Target Duration: 0.4 seconds
+
+2. clear_line.mp3
+   - Description: A magical, slightly percussive "whoosh" or "sparkle" sound when a single line is cleared.
+   - Target Duration: 0.8 seconds
+
+3. clear_multi.mp3
+   - Description: A more intense, celebratory version of clear_line. Used for combos (clearing 2 or 3 lines at once). Should sound rewarding.
+   - Target Duration: 1.2 seconds
+
+4. drag_start.mp3
+   - Description: A very short, subtle "pop" or "slide" sound when a piece is picked up from the tray.
+   - Target Duration: 0.15 seconds
+
+5. game_over.mp3
+   - Description: A gentle, slightly melancholic musical chime or a soft "thump" followed by a fade, indicating no more moves are possible.
+   - Target Duration: 2.0 seconds
+
+6. ui_click.mp3
+   - Description: A standard, clean UI click or tap sound for buttons (Pause, Menu, etc.).
+   - Target Duration: 0.1 seconds
+
+7. tray_refresh.mp3
+   - Description: A "shuffling" or "swish" sound when a new set of pieces appears in the tray.
+   - Target Duration: 0.6 seconds
+
+8. error_snap.mp3
+   - Description: A subtle, low-frequency "thump" or "buzz" when a piece is dropped in an invalid spot and snaps back to the tray.
+   - Target Duration: 0.3 seconds

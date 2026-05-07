@@ -1,0 +1,46 @@
+name: cube_puzzle
+description: "Crystal Cube Puzzle - A beautiful neon block puzzle game"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  google_fonts: ^6.2.1
+  audioplayers: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  msix: ^3.16.1
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  windows:
+    generate: true
+    image_path: "assets/logo.png"
+    icon_size: 256
+  image_path: "assets/logo.png"
+  min_sdk_android: 21
+
+msix_config:
+  display_name: Crystal Cube Puzzle
+  publisher_display_name: Talha
+  logo_path: assets/logo.png
+  capabilities: internet, location, microphone, webcam
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/audio/
